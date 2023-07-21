@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+.Skills{
+    height: 100vh;
+}
+.Skills >h1{
+    color: rgb(127, 136, 255);
+    text-align: center;
+    padding-top:50px;
+    font-weight: 1000;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+}
+.Skills__container{
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 200px;
+    display: flex;
+}
+.Skills__container > img{
+    flex: 0.4;
+    padding-right: 50px;
+}
+
+.Skills__container__progress > h2{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.Skills__container__progress > h3{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Skills__container__progress{
+    width: 350px;
+}
+.Skills__container__progress1{
+    margin-top: 10px;
+    margin-bottom: 28px;
+}
+.Skills__container__progress2{
+    margin-top: 10px;
+    margin-bottom: 28px;
+}
+.Skills__container__progress3{
+    margin-top: 10px;
+    margin-bottom: 28px;
+}
+.Skills__container__progress4{
+    margin-top: 10px;
+    margin-bottom: 28px;
+}
+.Skills__container__progress5{
+    margin-top: 10px;
+    margin-bottom: 28px;
+}

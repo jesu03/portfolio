@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Montserrat:wght@300;400;500&family=Nunito:wght@300&family=Ysabeau+SC:wght@500&display=swap');
+.Topcontent
+{
+    color: white;
+}
+.Topcontent__container{
+    position: absolute;
+    top:300px;
+    right: 150px;
+}
+
+.Topcontent__container > h1{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+
+.Topcontent__container > h2{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.Topcontent__container__download{
+   color: white;
+   background-color: #f64c08;
+   font-size: 14px;
+   padding: 10px 30px;
+   font-weight: 300;
+   cursor: pointer;
+   margin-right: 20px;
+   transition: transform 400ms ease-in-out;
+}
+.Topcontent__container__download:hover{
+    transform: scale(1.03);
+    box-shadow: inset 150px 0 0 0 #54b3d6;
+    color: white;
+}
+.Topcontent__container__probutton{
+    color: white;
+    background-color: #f64c08;
+    font-size: 14px;
+    padding: 10px 30px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: transform 400ms ease-in-out;
+}
+.Topcontent__container__probutton:hover{
+    transform: scale(1.03);
+    box-shadow: inset 150px 0 0 0 #54b3d6;
+    color: white;
+}
+.Topcontent__container > a > button{
+    text-align: left;
+    margin-left: 5px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
+.Topcontent__container > button{
+    text-align: left;
+    margin-left: 5px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
